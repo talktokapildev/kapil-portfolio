@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "London Stock Exchange Group ",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Successfully delivered an Index Builder tool with a core focus on attributes creation. These attributes are associated with constituents – entities, security and instrument. New indexes can be created by user using those attributes.",
+    tags: ["React", "ASP.NET Core", "SQL Server", "AWS"],
     imageUrl: '',//corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Domestic & General",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This project is to manage My Account section of D&G web app. Along this regular maintenance work, I work on making application accessible, responsive, intuitive, user-friendly. ",
+    tags: ["React", "TypeScript", "Tailwind", "ASP.NET Core", "Azure"],
     imageUrl: ''//rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Royal Bank of Scotland",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "This project is re-platforming the internet banking application. As first deliverable, I was working on building Debit Card Freeze/Unfreeze and Direct Debit details functionality. ",
+    tags: ["React", "TypeScript", "Tailwind", "ASP.NET Core", "Azure"],
     imageUrl: ''//wordanalyticsImg,
   },
 ] as const;
@@ -91,8 +91,12 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Angular",
   "Node.js",
   "Git",
+  "ASP.NET",
+  "C#",
+  "SQL Server",
   "Tailwind",
   "Prisma",
   "MongoDB",
@@ -101,7 +105,8 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
+  "Azure",
+  "AWS",
   "Django",
   "Framer Motion",
 ] as const;

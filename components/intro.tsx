@@ -30,15 +30,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            {/* <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            /> */}
+            
             <Image
               src="https://avatars.githubusercontent.com/u/2886185?s=400&u=b1d5f0963d98c0d3c441c9eb492e3f5a41add338&v=4?fit=crop&w=368&h=368&q=100"
               alt="Ricardo portrait"
@@ -71,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I am Kapil.</span> I am a{" "}
+        <span className="font-bold">Hello, I'm Kapil.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">15 years</span> of total experience. I enjoy
         building <span className="italic">sites</span>. My focus is{" "}
